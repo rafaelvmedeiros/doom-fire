@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Doom Fire Effect</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <h1>Doom Fire Effect</h1>
+      <div id="fireCanvas"></div>
+      <div class="margin fire-settings">
+        <button onclick="decreaseFireSource()">Decrease Flames</button>
+        <button onclick="destroyFireSource()">Min Flames</button>
+        <button onclick="createFireSource()">Max Flames</button>
+        <button onclick="increaseFireSource()">Increase Flames</button>
+      </div>
+      <div class="margin">
+        <button onclick="changeWindDirection(0)">Fire flame to the Left</button>
+        <button onclick="changeWindDirection(1)">Fire flame to the mid</button>
+        <button onclick="changeWindDirection(2)">
+          Fire flame to the Right
+        </button>
+      </div>
+      <div class="margin">
+        <button onclick="toggleDebugMode()">Toggle Debug Mode</button>
+      </div>
+    </center>
+
+    <script src="fire.js"></script>
+  </body>
+</html>

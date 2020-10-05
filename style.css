@@ -1,0 +1,81 @@
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: impact;
+  margin: 0;
+  font-size: 35px;
+  text-shadow: 0px -1px 0px rgba(255, 225, 31, 0.4);
+}
+
+#fireCanvas {
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+td {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: center;
+  font-family: arial;
+  font-size: 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+td.pixel {
+  width: 4px;
+  height: 4px;
+  border: 0;
+}
+
+.pixel-index {
+  font-size: 7px;
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: #927450;
+}
+
+a {
+  color: #fff;
+  font-size: 10px;
+  font-family: arial;
+}
+
+.margin {
+  margin: 5px;
+}
+
+button {
+  border: 0;
+  outline: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #8ca915;
+  height: auto;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 5px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 4px 5px;
+}
+
+.fire-settings {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
